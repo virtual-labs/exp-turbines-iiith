@@ -10,13 +10,13 @@
        "correctAnswer":"b"
     },
     {
-       "question":"2. The energy of water entering the reaction turbine is? ",
+       "question":"2. The pressure of water is atmospheric and remains constant while passing over the runner in? ",
        "answers":{
-          "a":"fully pressure energy",
-          "b":"fully kinetic energy",
-          "c":"partly pressure energy and partly kinetic energy",
-          "d":"none of the above"
+          "a":"Impulse turbine",
+          "b":"Reaction turbine",
+          "c":"Both Impulse and Reaction turbine",
+          "d":"None of the above"
        },
-       "correctAnswer":"c"
+       "correctAnswer":"a"
     }
  ]
