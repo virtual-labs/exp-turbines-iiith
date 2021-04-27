@@ -1,25 +1,21 @@
 [
     {
-       "question":"1.  The inlet length of the Venturimeter's greater than outlet pipe.",
+       "question":"1. Which of the following is an example of Impulse Turbine? ",
        "answers":{
-          "a":"True",
-          "b":"False"
+          "a":"Francus turbine",
+          "b":"Pelton Wheel Turbine",
+          "c":"Kaplan Turbine",
+          "d":"Propeller Turbine"
        },
        "correctAnswer":"b"
     },
     {
-       "question":"2. Actual discharge is obtained by (A)= a x h/t.",
+       "question":"2. The pressure of water is atmospheric and remains constant while passing over the runner in? ",
        "answers":{
-          "a":"True",
-          "b":"False"
-       },
-       "correctAnswer":"b"
-    },
-    {
-       "question":"3. Coefficient of discharge is calculated by C_d=Q_a/Q_t.",
-       "answers":{
-          "a":"True",
-          "b":"False"
+          "a":"Impulse turbine",
+          "b":"Reaction turbine",
+          "c":"Both Impulse and Reaction turbine",
+          "d":"None of the above"
        },
        "correctAnswer":"a"
     }
