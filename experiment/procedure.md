@@ -1,27 +1,13 @@
-Procedure for the experiment is as follows. 
+Procedure for the experiment is as follows:
 
-Density of water = ρ = 1000 kg/m3
+1. Click/Tap on the **Start** button to start the experiment.
+2. The water shall start flowing through the flow channel.
+3. Eventually the water will reach the nozel and come out as a long straing line of water flow.
+4. The water that came out will hit the buckets of the turbines and force the turbine to rotate anti-clockwise.
+5. Try to change the flow speed by using **Control flow speed** glider. Bringing the glider to the left will slow down the water flow whereas bringing it to the right will speed it up!
+6. Changing the speed of water flow will obviously affect the rotating speed of Turbine as well. Try to work out the relationship between the two.
+7. The **Control flow speed** glider is dynamic and can be changed midway when the turbine is rotating too. 
+8. Click/Tap on the **Reset** button to restart the expeirment afresh, i.e., with empty apparatus.
 
-Brake drum diameter = D =0 .45 m
 
-Rope diameter = d = 0.020m
-
-Mass of hanger = 2 kg
-
-Acceleration due to gravity g = 9.81 m/s2
-
-Calibration curve of the orifice plate
-
-Observation Table 1 Fully open Nozzle position of Pelton Turbine
-
-SPECIMEN CALCULATION
-
-Input power = ρ g Q H
-
-Torque T = (M-S) g x (D+d)/2
-
-Output power =
-
-Efficiency = 
-
-[Read More](docs/10.Turbines.pdf)
+[Read More about the experiment in detail](docs/10.Turbines.pdf)
