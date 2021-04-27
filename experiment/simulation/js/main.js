@@ -9,10 +9,10 @@ const arrayRemove = (arr, value) => {
   });
 };
 
-let rotating=true;
+let rotating = true;
 let updateRotating = (boo) => {
-  rotating=boo
-}
+  rotating = boo;
+};
 
 const ids = ["vertical", "horizontal"];
 
@@ -24,7 +24,7 @@ const asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
     animation_speed = animation_speed * 0.0001;
     animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
     if (curPosition > finalPosition) break;
-    curPosition += animation_speed
+    curPosition += animation_speed;
     path.setAttribute("offset", curPosition);
     await sleep(0.5);
   }
@@ -55,19 +55,19 @@ const animation = async () => {
   }
   rotate();
   const tube_ids = ["splash1", "splash2", "splash3"];
-  while(rotating){
+  while (rotating) {
     let path = document.getElementById(tube_ids[0]);
-    path.setAttribute("offset", 1)
-    await sleep(0.3)
-    path.setAttribute("offset", 0)
+    path.setAttribute("offset", 1);
+    await sleep(0.3);
+    path.setAttribute("offset", 0);
     path = document.getElementById(tube_ids[1]);
-    path.setAttribute("offset", 1)
-    await sleep(0.3)
-    path.setAttribute("offset", 0)
+    path.setAttribute("offset", 1);
+    await sleep(0.3);
+    path.setAttribute("offset", 0);
     path = document.getElementById(tube_ids[2]);
-    path.setAttribute("offset", 1)
-    await sleep(0.3)
-    path.setAttribute("offset", 0)
+    path.setAttribute("offset", 1);
+    await sleep(0.3);
+    path.setAttribute("offset", 0);
   }
 };
 
@@ -86,16 +86,18 @@ const resetEverything = () => {
 
 const rotate = async () => {
   let b = document.getElementById("wheel");
+
   for (var i = 0; i < 360; i++) {
-    console.log(rotating)
+    console.log(rotating);
     //console.log(i);
-    b.setAttribute("transform", `rotate(-${i})`);
+    let speed_factor = document.getElementById("water-flow").value / 100;
+    b.setAttribute("transform", `rotate(-${i * speed_factor})`);
     // document.getElementById("wheel").transform = `rotate(${i})`;
-    await sleep(0.5)
-    if(i > 358 && rotating)
-      i=0
-    if(!rotating)
-      break
+    console.log("i: ", i);
+    console.log("speedFactor: ", speed_factor);
+    await sleep(0.5);
+    if (i > 358 && rotating) i = 0;
+    if (!rotating) break;
   }
 };
 
