@@ -89,12 +89,9 @@ const rotate = async () => {
 
   for (var i = 0; i < 360; i++) {
     console.log(rotating);
-    //console.log(i);
     let speed_factor = document.getElementById("water-flow").value / 100;
     b.setAttribute("transform", `rotate(-${i * speed_factor})`);
     // document.getElementById("wheel").transform = `rotate(${i})`;
-    console.log("i: ", i);
-    console.log("speedFactor: ", speed_factor);
     await sleep(0.5);
     if (i > 358 && rotating) i = 0;
     if (!rotating) break;
