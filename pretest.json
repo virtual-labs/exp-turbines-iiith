@@ -1,0 +1,22 @@
+[
+    {
+       "question":"1. Which of the following is an example of Impulse Turbine? ",
+       "answers":{
+          "a":"Francus turbine",
+          "b":"Pelton Wheel Turbine",
+          "c":"Kaplan Turbine",
+          "d":"Propeller Turbine"
+       },
+       "correctAnswer":"b"
+    },
+    {
+       "question":"2. The pressure of water is atmospheric and remains constant while passing over the runner in? ",
+       "answers":{
+          "a":"Impulse turbine",
+          "b":"Reaction turbine",
+          "c":"Both Impulse and Reaction turbine",
+          "d":"None of the above"
+       },
+       "correctAnswer":"a"
+    }
+ ]
