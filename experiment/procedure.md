@@ -10,4 +10,4 @@ Procedure for the experiment is as follows:
 8. Click/Tap on the **Reset** button to restart the expeirment afresh, i.e., with empty apparatus.
 
 
-[Read More about the experiment in detail](docs/10.Turbines.pdf)
+To read about the Procedure of the experiment click [here](docs/10.Turbines.pdf)
