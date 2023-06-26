@@ -1,0 +1,22 @@
+[
+    {
+       "question":"1. For centrifugal pump impeller, what is the maximum value of the vane exit angle? ",
+       "answers":{
+          "a":"100 to 150 degrees",
+          "b":"150 to 200 degrees",
+          "c":"200 to 250 degrees",
+          "d":"250 to 300 degrees"
+       },
+       "correctAnswer":"c"
+    },
+    {
+       "question":"2. The energy of water entering the reaction turbine is? ",
+       "answers":{
+          "a":"fully pressure energy",
+          "b":"fully kinetic energy",
+          "c":"partly pressure energy and partly kinetic energy",
+          "d":"none of the above"
+       },
+       "correctAnswer":"c"
+    }
+ ]
