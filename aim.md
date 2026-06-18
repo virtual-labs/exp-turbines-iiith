@@ -1,0 +1,1 @@
+The primary aim of this experiment is to study the performance characteristics of a hydraulic turbine by analysing the variation of output power and efficiency with speed under different operating conditions. The experiment provides practical understanding of energy conversion from hydraulic energy to mechanical energy and the factors affecting turbine performance.

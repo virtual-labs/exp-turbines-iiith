@@ -1,0 +1,10 @@
+
+/home/runner/work/exp-turbines-iiith/exp-turbines-iiith/experiment/simulation/js/main.js
+    6:7   warning  'arrayRemove' is assigned a value but never used     no-unused-vars
+   21:7   warning  'flags' is assigned a value but never used           no-unused-vars
+   22:10  warning  Unexpected constant condition                        no-constant-condition
+   40:12  warning  Unexpected constant condition                        no-constant-condition
+  101:7   warning  'startAnimation' is assigned a value but never used  no-unused-vars
+
+✖ 5 problems (0 errors, 5 warnings)
+

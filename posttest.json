@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The energy of water entering a reaction turbine consists of:",
+      "answers": {
+        "a": "Only pressure energy",
+        "b": "Only kinetic energy",
+        "c": "Partly pressure energy and partly kinetic energy",
+        "d": "Only potential energy"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Water entering a reaction turbine possesses both pressure and kinetic energy.",
+        "b": "Incorrect. Kinetic energy alone is characteristic of impulse turbines.",
+        "c": "Correct. In reaction turbines, water enters the runner with a combination of pressure and kinetic energy.",
+        "d": "Incorrect. Potential energy is converted before the flow reaches the runner."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following is a reaction turbine?",
+      "answers": {
+        "a": "Pelton wheel turbine",
+        "b": "Francis turbine",
+        "c": "Turgo turbine",
+        "d": "Cross-flow turbine"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Pelton wheel is an impulse turbine.",
+        "b": "Correct. Francis turbine is a mixed-flow reaction turbine.",
+        "c": "Incorrect. Turgo turbine operates on the impulse principle.",
+        "d": "Incorrect. Cross-flow turbines are impulse turbines."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The primary function of a draft tube in a reaction turbine is to:",
+      "answers": {
+        "a": "Increase inlet pressure",
+        "b": "Reduce discharge",
+        "c": "Increase rotational speed",
+        "d": "Recover kinetic energy at the runner outlet"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The draft tube does not increase inlet pressure.",
+        "b": "Incorrect. Reducing discharge is not its purpose.",
+        "c": "Incorrect. Turbine speed depends on design and operating conditions.",
+        "d": "Correct. The draft tube converts a portion of exit kinetic energy into pressure energy, improving efficiency."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which turbine is most suitable for high-head and low-discharge conditions?",
+      "answers": {
+        "a": "Kaplan turbine",
+        "b": "Francis turbine",
+        "c": "Pelton wheel turbine",
+        "d": "Propeller turbine"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Kaplan turbines are used for low heads and large discharges.",
+        "b": "Incorrect. Francis turbines are suitable for medium-head applications.",
+        "c": "Correct. Pelton wheel turbines are preferred for high-head and low-discharge conditions.",
+        "d": "Incorrect. Propeller turbines are designed for low heads."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. The specific speed of a turbine is useful for:",
+      "answers": {
+        "a": "Determining water density",
+        "b": "Selecting the appropriate turbine type",
+        "c": "Calculating atmospheric pressure",
+        "d": "Measuring discharge directly"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Specific speed does not provide fluid properties.",
+        "b": "Correct. Specific speed helps select the most suitable turbine for given head and discharge conditions.",
+        "c": "Incorrect. Atmospheric pressure is measured independently.",
+        "d": "Incorrect. Discharge is determined by flow measurement methods."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Cavitation in turbines can be minimized by:",
+      "answers": {
+        "a": "Increasing the suction head excessively",
+        "b": "Reducing the atmospheric pressure",
+        "c": "Operating below vapor pressure",
+        "d": "Providing proper setting and draft tube design"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Excessive suction head promotes cavitation.",
+        "b": "Incorrect. Lower atmospheric pressure increases cavitation tendency.",
+        "c": "Incorrect. Pressure below vapor pressure causes cavitation.",
+        "d": "Correct. Proper turbine setting and draft tube design help prevent cavitation."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. The hydraulic efficiency of a turbine is defined as the ratio of:",
+      "answers": {
+        "a": "Power delivered to the shaft to the power supplied by water to the runner",
+        "b": "Mechanical power to electrical power",
+        "c": "Overall efficiency to volumetric efficiency",
+        "d": "Output power to input electrical power"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Hydraulic efficiency measures how effectively the runner converts the hydraulic energy supplied to it into mechanical power.",
+        "b": "Incorrect. Electrical power is not involved in hydraulic efficiency.",
+        "c": "Incorrect. These efficiencies are distinct quantities.",
+        "d": "Incorrect. Turbines do not receive electrical input."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Which turbine generally possesses the highest specific speed?",
+      "answers": {
+        "a": "Pelton wheel turbine",
+        "b": "Francis turbine",
+        "c": "Turgo turbine",
+        "d": "Kaplan turbine"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Pelton turbines have relatively low specific speed.",
+        "b": "Incorrect. Francis turbines possess moderate specific speed values.",
+        "c": "Incorrect. Turgo turbines do not have the highest specific speed.",
+        "d": "Correct. Kaplan turbines have very high specific speeds and are suitable for low-head applications."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Unit speed of a turbine is defined as the speed of the turbine operating under:",
+      "answers": {
+        "a": "Unit discharge",
+        "b": "Unit head",
+        "c": "Unit power",
+        "d": "Unit efficiency"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Unit discharge is used in defining unit discharge, not unit speed.",
+        "b": "Correct. Unit speed is the speed of a geometrically similar turbine operating under unit head.",
+        "c": "Incorrect. Unit power is used in defining unit power, not unit speed.",
+        "d": "Incorrect. Efficiency does not define unit speed."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

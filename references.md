@@ -1,0 +1,3 @@
+- Bansal, R. K. Fluid Mechanics and Hydraulic Machines.
+- Singh, Sarabjit. Experiments in Fluid Mechanics.
+- [Hydraulic Turbine](https://en.wikipedia.org/wiki/Hydraulic_turbine)
