@@ -1,199 +1,154 @@
-The Performance Characteristics of a Pelton Turbine Experiment is performed to determine the output power and efficiency of the turbine under different loading conditions.
+### What is Measured?
 
-During the experiment, the discharge, turbine speed, and applied load are measured. These observations are used to calculate the hydraulic input power, shaft torque, output power, and overall efficiency of the turbine.
+During the experiment, the following quantities are measured:
 
-### Measured Data
+- Effective head acting on the turbine,
+- Discharge through the turbine,
+- Rotational speed of the turbine,
+- Brake load,
+- Brake drum dimensions.
 
-The following quantities are measured during the experiment.
+These measurements are used to determine the hydraulic input power, shaft output power, and overall efficiency of the turbine.
 
-|       Parameter        | Symbol |  Unit   |
-| :--------------------: | :----: | :-----: |
-|     Effective head     |  $H$   |    m    |
-|       Discharge        |  $Q$   | m$^3$/s |
-|     Turbine speed      |  $N$   |   rpm   |
-|      Applied mass      |  $M$   |   kg    |
-| Spring balance reading |  $S$   |   kg    |
+### Why are these Measurements Important?
 
-For the apparatus,
+#### Effective Head
 
-- Brake drum diameter,
+The head represents the hydraulic energy available to drive the turbine.
 
-$$
-D=0.45;m
-$$
+#### Discharge
 
-- Rope diameter,
+The discharge determines the quantity of water supplying energy to the turbine.
 
-$$
-d=0.020;m
-$$
+#### Rotational Speed
 
-- Density of water and acceleration due to gravity are
+The speed indicates the operating condition of the turbine and is required for calculating shaft power.
 
-$$
-\rho=1000;kg/m^3,\qquad g=9.81;m/s^2
-$$
+#### Brake Load
 
-### Calculation of Hydraulic Input Power
+The brake load provides the torque developed by the turbine shaft.
 
-The hydraulic power supplied to the turbine depends upon the discharge and the available head.
+#### Turbine Efficiency
 
-The input power is
+Comparing the hydraulic input power with the shaft output power indicates the effectiveness of the turbine in converting water energy into mechanical energy.
+
+### Sequential Calculations
+
+#### Step 1
+
+Calculate the hydraulic input power.
 
 $$
-P_i=\rho gQH
+P_h=\rho gQH
 $$
 
-For
+#### Step 2
+
+Calculate the shaft torque.
 
 $$
-Q=0.005;m^3/s
+T=(W-S)R
 $$
 
-and
+where
 
-$$
-H=28.5;m,
-$$
+- $W$ = Dead load,
+- $S$ = Spring balance reading,
+- $R$ = Brake drum radius.
 
-$$
-P_i=1000\times9.81\times0.005\times28.5
-$$
+#### Step 3
 
-$$
-P_i=1397.9;W
-$$
-
-### Calculation of Torque
-
-The applied load produces a braking force on the turbine shaft. This braking force is used to determine the shaft torque.
-
-The effective radius of the brake drum is
-
-$$
-r=\frac{D+d}{2}
-$$
-
-For
-
-$$
-D=0.45;m
-$$
-
-and
-
-$$
-d=0.020;m,
-$$
-
-$$
-r=\frac{0.45+0.02}{2}
-$$
-
-$$
-r=0.235;m
-$$
-
-The torque developed by the turbine is
-
-$$
-T=(M-S)gr
-$$
-
-For
-
-$$
-M=12;kg
-$$
-
-and
-
-$$
-S=2;kg,
-$$
-
-$$
-T=(12-2)\times9.81\times0.235
-$$
-
-$$
-T=23.05;N.m
-$$
-
-### Calculation of Output Power
-
-The output power developed by the turbine shaft depends upon the torque and rotational speed.
-
-The output power is
+Calculate the output power.
 
 $$
 P_o=\frac{2\pi NT}{60}
 $$
 
-For
+#### Step 4
+
+Calculate the overall efficiency.
 
 $$
-N=450;rpm
+\eta=\frac{P_o}{P_h}\times100
 $$
 
-and
+### Solved Numerical Example
+
+Given,
+
+Head,
 
 $$
-T=23.05;N.m,
+H=5\ m
 $$
 
-$$
-P_o=\frac{2\pi\times450\times23.05}{60}
-$$
+Discharge,
 
 $$
-P_o=1086.2;W
+Q=0.02\ m^3/s
 $$
 
-### Calculation of Overall Efficiency
-
-The efficiency indicates how effectively the hydraulic energy supplied to the turbine is converted into mechanical power.
-
-The overall efficiency is
+Speed,
 
 $$
-\eta=\frac{P_o}{P_i}\times100
+N=900\ rpm
 $$
 
-Using
+Brake load difference,
 
 $$
-P_o=1086.2;W
+W-S=12\ N
 $$
 
-and
+Brake radius,
 
 $$
-P_i=1397.9;W,
+R=0.15\ m
 $$
 
-$$
-\eta=\frac{1086.2}{1397.9}\times100
-$$
+Hydraulic power,
 
 $$
-\eta=77.7%
+P_h=1000\times9.81\times0.02\times5
+=981\ W
 $$
 
-A higher efficiency indicates better conversion of hydraulic energy into useful mechanical work.
+Torque,
 
-### Sample Observation Table
+$$
+T=12\times0.15=1.8\ Nm
+$$
 
-| Trial | $Q$ (m$^3$/s) | $N$ (rpm) | $M$ (kg) | $S$ (kg) | Torque (N.m) | Input Power (W) | Output Power (W) | Efficiency (%) |
-| :---: | :-----------: | :-------: | :------: | :------: | :----------: | :-------------: | :--------------: | :------------: |
-|   1   |    0.0050     |    450    |    12    |    2     |    23.05     |     1397.9      |      1086.2      |      77.7      |
-|   2   |    0.0050     |    420    |    14    |    2     |    27.66     |     1397.9      |      1216.8      |      87.0      |
-|   3   |    0.0050     |    380    |    16    |    2     |    32.28     |     1397.9      |      1284.5      |      91.9      |
-|   4   |    0.0050     |    320    |    18    |    2     |    36.89     |     1397.9      |      1236.2      |      88.4      |
-|   5   |    0.0050     |    250    |    20    |    2     |    41.50     |     1397.9      |      1086.7      |      77.7      |
+Output power,
+
+$$
+P_o=\frac{2\pi\times900\times1.8}{60}
+=170\ W
+$$
+
+Efficiency,
+
+$$
+\eta=\frac{170}{981}\times100
+=17.3%
+$$
+
+### Observation Table
+
+| Trial | Head (m) | Discharge ($m^3/s$) | Speed (rpm) | Output Power (W) | Hydraulic Power (W) | Efficiency (%) |
+| ----- | -------: | ------------------: | ----------: | ---------------: | ------------------: | -------------: |
+| 1     |        3 |               0.015 |         700 |               90 |                 441 |           20.4 |
+| 2     |        4 |               0.018 |         800 |              125 |                 706 |           17.7 |
+| 3     |        5 |               0.020 |         900 |              170 |                 981 |           17.3 |
+| 4     |        6 |               0.022 |         950 |              215 |                1295 |           16.6 |
+| 5     |        7 |               0.025 |        1000 |              280 |                1717 |           16.3 |
 
 ### Interpretation
 
-As the load applied to the Pelton turbine increases, the torque developed by the runner increases while the rotational speed decreases. The output power and efficiency initially increase because of improved energy transfer from the water jet to the buckets. Beyond an optimum operating condition, further loading causes a reduction in speed and output power, leading to a decrease in efficiency.
+The observations show that increasing the operating head and discharge increases the hydraulic power available to the turbine.
 
-The experimentally calculated values of output power and efficiency are used to plot the performance characteristics of the Pelton turbine and to identify its most efficient operating range.
+The turbine converts a portion of this hydraulic energy into useful mechanical power at the shaft. The difference between the hydraulic input power and shaft output power is due to hydraulic, mechanical, and frictional losses.
+
+The efficiency of the turbine depends on the operating conditions and generally reaches a maximum within a particular range of discharge and speed.
+
+The experiment demonstrates the practical conversion of water energy into mechanical energy and illustrates the operating characteristics of hydraulic turbines used in hydroelectric power generation.
