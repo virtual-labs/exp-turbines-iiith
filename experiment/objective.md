@@ -1,0 +1,4 @@
+- To study the performance characteristics of a hydraulic turbine.
+- To determine the variation of output power with turbine speed.
+- To evaluate the efficiency of the turbine under different nozzle openings.
+- To analyse the relationship between operating conditions and turbine performance.
