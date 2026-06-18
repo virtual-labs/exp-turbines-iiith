@@ -1,22 +1,158 @@
-[
+{
+  "version": 2.0,
+  "questions": [
     {
-       "question":"1. Which of the following is an example of Impulse Turbine? ",
-       "answers":{
-          "a":"Francus turbine",
-          "b":"Pelton Wheel Turbine",
-          "c":"Kaplan Turbine",
-          "d":"Propeller Turbine"
-       },
-       "correctAnswer":"b"
+      "question": "1. Which of the following is an example of an impulse turbine?",
+      "answers": {
+        "a": "Francis turbine",
+        "b": "Kaplan turbine",
+        "c": "Pelton wheel turbine",
+        "d": "Propeller turbine"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Francis turbine is a reaction turbine.",
+        "b": "Incorrect. Kaplan turbine operates on the reaction principle.",
+        "c": "Correct. Pelton wheel is an impulse turbine in which the entire available head is converted into kinetic energy before striking the buckets.",
+        "d": "Incorrect. Propeller turbine is a reaction turbine."
+      },
+      "difficulty": "beginner"
     },
     {
-       "question":"2. The pressure of water is atmospheric and remains constant while passing over the runner in? ",
-       "answers":{
-          "a":"Impulse turbine",
-          "b":"Reaction turbine",
-          "c":"Both Impulse and Reaction turbine",
-          "d":"None of the above"
-       },
-       "correctAnswer":"a"
+      "question": "2. In which type of turbine does water flow over the runner at atmospheric pressure?",
+      "answers": {
+        "a": "Impulse turbine",
+        "b": "Reaction turbine",
+        "c": "Mixed-flow turbine",
+        "d": "Axial-flow turbine"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. In an impulse turbine, the pressure remains atmospheric while passing over the runner.",
+        "b": "Incorrect. In reaction turbines, pressure changes occur across the runner.",
+        "c": "Incorrect. Mixed-flow turbines are a type of reaction turbine.",
+        "d": "Incorrect. Axial-flow turbines operate on the reaction principle."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Hydraulic turbines convert:",
+      "answers": {
+        "a": "Electrical energy into mechanical energy",
+        "b": "Hydraulic energy into mechanical energy",
+        "c": "Mechanical energy into hydraulic energy",
+        "d": "Thermal energy into hydraulic energy"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. This process occurs in electric motors.",
+        "b": "Correct. Hydraulic turbines convert the energy possessed by water into mechanical energy.",
+        "c": "Incorrect. Pumps perform this function.",
+        "d": "Incorrect. Thermal energy conversion is not the function of hydraulic turbines."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which component of a Pelton wheel turbine directs the jet onto the buckets?",
+      "answers": {
+        "a": "Draft tube",
+        "b": "Runner",
+        "c": "Casing",
+        "d": "Nozzle"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Draft tubes are used in reaction turbines.",
+        "b": "Incorrect. The runner receives the jet but does not direct it.",
+        "c": "Incorrect. The casing mainly prevents splashing and guides discharged water.",
+        "d": "Correct. The nozzle converts pressure energy into kinetic energy and directs the jet onto the buckets."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which turbine is most suitable for low-head and high-discharge conditions?",
+      "answers": {
+        "a": "Pelton turbine",
+        "b": "Kaplan turbine",
+        "c": "Turgo turbine",
+        "d": "Cross-flow turbine"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Pelton turbines are used for high-head applications.",
+        "b": "Correct. Kaplan turbines are axial-flow reaction turbines suitable for low-head, high-discharge conditions.",
+        "c": "Incorrect. Turgo turbines are impulse turbines for medium heads.",
+        "d": "Incorrect. Cross-flow turbines are not preferred for very high discharges."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. The draft tube in a reaction turbine is used to:",
+      "answers": {
+        "a": "Increase the discharge only",
+        "b": "Convert pressure energy into electrical energy",
+        "c": "Recover kinetic energy at the runner exit",
+        "d": "Increase the head at the inlet"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Increasing discharge alone is not the purpose of the draft tube.",
+        "b": "Incorrect. Electrical energy conversion occurs in the generator.",
+        "c": "Correct. A draft tube helps recover kinetic energy leaving the runner and improves efficiency.",
+        "d": "Incorrect. It does not increase the inlet head."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. The specific speed of a turbine is defined as the speed of a geometrically similar turbine that develops unit power under:",
+      "answers": {
+        "a": "Unit head",
+        "b": "Unit discharge",
+        "c": "Unit efficiency",
+        "d": "Unit velocity"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Specific speed is defined for a turbine producing unit power under unit head.",
+        "b": "Incorrect. Specific speed is not based on unit discharge.",
+        "c": "Incorrect. Efficiency does not appear in the definition.",
+        "d": "Incorrect. Unit velocity is not involved in defining specific speed."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Which turbine generally possesses the highest specific speed?",
+      "answers": {
+        "a": "Pelton turbine",
+        "b": "Francis turbine",
+        "c": "Turgo turbine",
+        "d": "Kaplan turbine"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Pelton turbines have comparatively low specific speed.",
+        "b": "Incorrect. Francis turbines have moderate specific speed.",
+        "c": "Incorrect. Turgo turbines do not possess the highest specific speed.",
+        "d": "Correct. Kaplan turbines are characterized by high specific speed and are suitable for low-head applications."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Cavitation in hydraulic turbines occurs when:",
+      "answers": {
+        "a": "Pressure rises above atmospheric pressure",
+        "b": "Flow velocity becomes zero",
+        "c": "Pressure falls below vapor pressure of water",
+        "d": "Water temperature becomes constant"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. High pressure does not cause cavitation.",
+        "b": "Incorrect. Zero velocity does not initiate cavitation.",
+        "c": "Correct. Cavitation occurs when the local pressure drops below the vapor pressure, forming vapor bubbles.",
+        "d": "Incorrect. Constant temperature is unrelated to cavitation."
+      },
+      "difficulty": "advanced"
     }
- ]
+  ]
+}
